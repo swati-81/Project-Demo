@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Old Book Marketplace</title>
+  <link rel="stylesheet" href="OldBook1.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Buy Books</a></li>
+        <li><a href="#">Sell Books</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to the Old Book Store</h1>
+      <p>Buy and sell old books with ease!</p>
+      <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section class="search">
+      <h2>Search for Books</h2>
+      <input type="text" id="searchInput" placeholder="Search for books...">
+      <button class="btn" onclick="searchBooks()">Search</button>
+    </section>
+
+    <section class="featured-books">
+      <h2>Featured Books for Sale</h2>
+      <div class="book-grid" id="bookList">
+        <!-- Book cards will be dynamically added here -->
+      </div>
+    </section>
+
+    <section class="sell-your-books">
+      <h2>Sell Your Books</h2>
+      <p>Ready to declutter? Sell your old books to fellow book lovers!</p>
+      <a href="#" class="btn">Start Selling</a>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <blockquote>
+        "I found the perfect old book for my collection! The process was simple and fast." - Sanya Singh
+      </blockquote>
+      <blockquote>
+        "Selling my old books was a breeze. Highly recommend!" - Rohan Rai
+      </blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Old Book Marketplace. All rights reserved.</p>
+  </footer>
+
+  <script src="OldBook1.js"></script>
+</body>
+</html>
