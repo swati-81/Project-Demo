@@ -1,2 +1,2 @@
-# Project-Demo
+# Hackathon
 This is my first project.
